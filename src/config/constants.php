@@ -18,7 +18,7 @@ define("MAIL_SMTP_HOST", "mx1.hostinger.com.br");
 define("MAIL_SMTP_SECURITY", "tls");
 define("MAIL_SMTP_PORT", 587);
 define("MAIL_SMTP_USERNAME", "nao-responder@camillaefelipenoaltar.com.br");
-define("MAIL_SMTP_PASSWORD", "6MH4dTP3L4eC");
+define("MAIL_SMTP_PASSWORD", "senha");
 define("MAIL_FROM", array('EMAIL'=>'nao-responder@camillaefelipenoaltar.com.br', 'NOME'=>'Camilla & Felipe no altar') );
 define("MAIL_DESTINATARIOS", array(
     array('EMAIL'=>'felipebcleao@gmail.com', 'NOME'=>'Felipe'),
@@ -29,7 +29,7 @@ define("MAIL_DESTINATARIOS", array(
 // Constantes para reCaptcha
 ////////////////////////////////////////////////////////////////
 define("RECAPTCHA_SITE_URL", "https://www.google.com/recaptcha/api/siteverify");
-define("RECAPTCHA_SECRET", "6LcAlVEUAAAAAJU2UJT0hgIpgMVuTD-YfFo3R8hT");
+define("RECAPTCHA_SECRET", "senha-recaptcha");
 
 
 
